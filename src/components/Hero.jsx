@@ -1,4 +1,7 @@
 import React from "react";
+import code from "../../public/code.png";
+import design from "../../public/design.png"
+import consulting from "../../public/consulting.png"
 
 const Hero = () => {
   return (
@@ -10,7 +13,7 @@ const Hero = () => {
 
       <div className="mt-2 lg:flex gap-10 ">
         <div className="text-center shadow-lg flex flex-col items-center p-10 my-10 rounded-xl">
-          <img src="public\code.png" alt="" className="w-100 h-100" />
+          <img src={code} alt="" className="w-100 h-100" />
           <h3 className="text-lg font-bold py-2">React Web Development</h3>
           <ul>
             <li><p>Expert in crafting dynamic and responsive web applications using React.js.</p></li>
@@ -18,7 +21,7 @@ const Hero = () => {
           </ul>
         </div>
         <div className="text-center shadow-lg flex flex-col items-center p-10 my-10 rounded-xl">
-          <img src="public\design.png" alt="" className="w-100 h-100" />
+          <img src={design} alt="" className="w-100 h-100" />
           <h3 className="text-lg font-bold py-2">Responsive Design</h3>
           <ul>
             <li><p>Ensuring seamless user experiences across devices and screen sizes.</p></li>
@@ -26,7 +29,7 @@ const Hero = () => {
           </ul>
         </div>
         <div className="text-center shadow-lg flex flex-col items-center p-10 my-10 rounded-xl">
-          <img src="public\consulting.png" alt="" className="w-100 h-100" />
+          <img src={consulting} alt="" className="w-100 h-100" />
           <h3 className="text-lg font-bold py-2">State Management with Redux</h3>
           <ul>
             <li><p>Proficient implementation of Redux for efficient state management.</p></li>

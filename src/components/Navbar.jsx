@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import imageProfile from "../../public/sticker_1.webp"
 
 // terakhir 24:49
 const Navbar = () => {
@@ -32,7 +33,7 @@ const Navbar = () => {
           </div>
 
           <div className=" mx-auto bg-gradient-to-b from-teal-500 rounded-full h-60 w-60 mt-10 md:h-full md:w-96">
-            <img src="public\sticker_1.webp" alt="gambar-profile" className="object-cover w-full h-full rounded-full" />
+            <img src={imageProfile} alt="gambar-profile" className="object-cover w-full h-full rounded-full" />
           </div>
         </div>
 

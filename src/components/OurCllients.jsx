@@ -1,4 +1,7 @@
 import React from "react";
+import web1 from "../../public/web1.png";
+import web2 from "../../public/web2.png";
+import web3 from "../../public/web3.png";
 
 const OurCllients = () => {
   return (
@@ -16,7 +19,7 @@ const OurCllients = () => {
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
         <div className="basis-1/3 flex-1">
           <a href="#" class=" rounded-lg group relative block bg-black">
-            <img alt="" src="public\web1.png" class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+            <img alt="" src={web1} class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-teal-400">Developer</p>
@@ -33,7 +36,7 @@ const OurCllients = () => {
         </div>
         <div className="basis-1/3 flex-1">
           <a href="#" class=" rounded-lg group relative block bg-black">
-            <img alt="" src="public\web2.png" class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+            <img alt="" src={web1} class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-teal-400">Developer</p>
@@ -50,7 +53,7 @@ const OurCllients = () => {
         </div>
         <div className="basis-1/3 flex-1">
           <a href="#" class=" rounded-lg group relative block bg-black">
-            <img alt="" src="public\web3.png" class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+            <img alt="" src={web1} class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-teal-400">Developer</p>
@@ -67,7 +70,7 @@ const OurCllients = () => {
         </div>
         <div className="basis-1/3 flex-1">
           <a href="#" class=" rounded-lg group relative block bg-black">
-            <img alt="" src="public\web1.png" class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+            <img alt="" src={web1} class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-teal-400">Developer</p>
@@ -84,7 +87,7 @@ const OurCllients = () => {
         </div>
         <div className="basis-1/3 flex-1">
           <a href="#" class=" rounded-lg group relative block bg-black">
-            <img alt="" src="public\web2.png" class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+            <img alt="" src={web1} class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-teal-400">Developer</p>
@@ -101,7 +104,7 @@ const OurCllients = () => {
         </div>
         <div className="basis-1/3 flex-1">
           <a href="#" class=" rounded-lg group relative block bg-black">
-            <img alt="" src="public\web3.png" class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
+            <img alt="" src={web1} class=" rounded-lg absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50" />
 
             <div class="relative p-4 sm:p-6 lg:p-8">
               <p class="text-sm font-medium uppercase tracking-widest text-teal-400">Developer</p>
